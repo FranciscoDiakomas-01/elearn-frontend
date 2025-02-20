@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --white: #ffff;
+  --gray: #e8e8e8;
+  --black: #323232;
+  --red: #e80e3d;
+  --violet: #04b3c8;
+}
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background-color: #020e16;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--violet);
+  border-radius: 99px;
+}
+*::selection {
+  background-color: var(--violet);
+  color: var(--white);
+}
+
+button {
+  min-height: 40px;
+  border: none;
+  border-radius: 7px;
+  font-size: 12pt;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+button:active {
+  transform: skew(5deg, 10deg);
+}
+
+section {
+  width: 100dvw;
+  min-height: 100dvh;
+  background-attachment: fixed;
+}
+
+
+.swiper-button-prev{
+  color: var(--violet);
+  z-index: 999;
+  background-color: red;
+}

@@ -1,0 +1,44 @@
+#ladingPageHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 12pt;
+  display: flex;
+  background-color: var(--white);
+  z-index: 9999999999999999;
+}
+
+#ladingPageHeader nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+#ladingPageHeader div {
+  margin-left: 10px;
+  display: flex;
+}
+#ladingPageHeader div h1:last-of-type {
+  color: var(--violet);
+}
+a {
+  text-decoration: none;
+  font-size: 13pt;
+  color: black;
+}
+#ladingPageHeader nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  align-items: center;
+}
+
+#ladingPageHeader nav button {
+  width: 120px;
+  background-color: var(--violet);
+  color: var(--white);
+  font-size: 12pt;
+}
